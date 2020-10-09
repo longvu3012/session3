@@ -118,16 +118,18 @@
 
 //Ex10:
 // let tenNguoi = prompt(`Enter a sequence of names, seperated by commas (,)`);
-// let tenArray = tenNguoi.split(",");
-// console.log(tenNguoi);
-// let result1 = tenNguoi.map(num => "<" + num + ">");
+// let tenArray = tenNguoi.split(',');
+// console.log(tenArray);
+// let result1 = tenArray.map((num) => "<" + num + ">");
+// // let result1 = tenArray.map(num)
 // let result = result1.toString();
 // console.log(result);
 //  alert(`${tenNguoi} => ${result}`);
 
 //Ex11:
-let dayso = prompt("Enter a sequence number, seperated bhy commas (,)") ;
-let b  = dayso.split(",").map(Number);
-console.log(b);
-let le = dayso.filter(num => num % 2 != 0);
-alert(`${dayso} => Odd : ${le}`);
+// let dayso = prompt("Enter a sequence number, seperated bhy commas (,)") ;
+// let b  = dayso.split(",").map(Number);
+// console.log(b);
+// let le = b.filter(num => num % 2 != 0);
+// let find = b.find(num => num % 2 == 0);
+// alert(`${dayso} => Odd : ${le}`);
